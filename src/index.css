@@ -1,0 +1,133 @@
+/* Professional Business-Level Styles for ToDoList component */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+}
+
+/* Main Container */
+.Task-container {
+  background-color: #ffffff;
+  max-width: 450px;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e0e0e0;
+}
+
+/* Header */
+.Task-Header {
+  text-align: center;
+  font-size: 26px;
+  color: #2c3e50;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 15px;
+}
+
+/* Flexbox container for input and add button */
+.Task-input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Input Field */
+input[type="text"] {
+  width: 65%;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+  border-color: #3498db;
+}
+
+/* Add Button */
+.Task-add {
+  width: 20%;
+  background-color: #349ee4;
+  color: #fff;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-left: 10px;
+}
+
+.Task-add:hover {
+  background-color: #2b85c2;
+}
+
+/* Task List */
+.Task-List {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+/* Task Items */
+.Task-List li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f7f8fa;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #eaeaea;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.03);
+  transition: all 0.2s ease;
+}
+
+.Task-List li:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Task Text */
+span {
+  font-size: 18px;
+  font-weight: 500;
+  color: #34495e;
+  flex-grow: 1;
+  padding-right: 10px;
+}
+
+/* Buttons */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.Task-delete {
+  color: #e74c3c;
+}
+
+.Task-delete:hover {
+  color: #c0392b;
+}
+
+.Task-moveUp, .Task-moveDown {
+  color: #3498db;
+}
+
+.Task-moveUp:hover, .Task-moveDown:hover {
+  color: #2980b9;
+}
