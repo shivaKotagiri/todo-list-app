@@ -25,7 +25,7 @@ Ensure you have the following installed on your system:
 
 ### Installation
 
-1. Clone the repository: git clone 
+1. Clone the repository: git clone https://github.com/shivaKotagiri/todo-list-app.git
 
 2. Navigate to the project directory: cd your-repo-name
 
