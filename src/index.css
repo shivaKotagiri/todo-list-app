@@ -53,7 +53,7 @@ input[type="text"]:focus {
 }
 
 /* Add Button */
-.Task-add {
+.Task-add, .Task-save {
   width: 20%;
   background-color: #349ee4;
   color: #fff;
@@ -116,11 +116,11 @@ button {
   transition: color 0.3s ease;
 }
 
-.Task-delete {
+.Task-delete, .Task-edit {
   color: #e74c3c;
 }
 
-.Task-delete:hover {
+.Task-delete:hover, .Task-edit:hover {
   color: #c0392b;
 }
 
